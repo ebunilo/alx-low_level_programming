@@ -7,5 +7,7 @@
  */
 int main(void)
 {
+	printf("%s", "Success!");
+
 	return (0);
 }
