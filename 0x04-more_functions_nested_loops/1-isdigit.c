@@ -7,14 +7,16 @@
  * Return: return 1 if c is a digit, return 0 otherwise
  */
 
-int _isdigit(c)
+int _isdigit(int c)
 {
 	int i;
 
 	for (i = 0; i < 10; i++)
 	{
 		if (c == i)
+		{
 			return (1);
+		}
 	}
 
 	return (0);
