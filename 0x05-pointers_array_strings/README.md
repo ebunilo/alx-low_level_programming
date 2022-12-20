@@ -1,0 +1,1 @@
+Pointer. Array and Strings
