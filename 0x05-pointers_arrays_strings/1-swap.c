@@ -5,6 +5,7 @@
  * @*a *b: the two integers to swap
  *
  * Return: Nothing
+ */
 
 void swap_int(int *a, int *b)
 {
