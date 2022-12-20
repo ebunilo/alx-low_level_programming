@@ -1,4 +1,4 @@
-#include <stdio.io>
+#include <stdio.h>
 
 /**
  * puts_half - Print half of a string followed by a newline
