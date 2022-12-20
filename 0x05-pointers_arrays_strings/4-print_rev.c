@@ -2,7 +2,7 @@
 
 /**
  * print_rev - Print a string in reverse
- * @s: string paramenter 
+ * @s: string paramenter
  *
  * Return: Nothing
  */
@@ -18,8 +18,7 @@ void print_rev(char *s)
 
 	for (j = length - 1; j >= 0; j--)
 	{
-		putchar(*(s + i));
+		putchar(*(s + j));
 	}
-	putchar('\n');
-	
+	putchar('\n');	
 }
