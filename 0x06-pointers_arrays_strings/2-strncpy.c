@@ -4,6 +4,7 @@
  * _strncpy - copy string from source to destination
  * @dest: Destination paramenter
  * @src: Source parameter
+ * @n: number of bytes to copy
  *
  *Return: Return pointer to parameter
  */
