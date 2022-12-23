@@ -3,7 +3,7 @@
 /**
  * string_toupper - changes all lowercas to uppercase
  *@str: string parameter
- * 
+ *
  * Return: string address
  */
 
