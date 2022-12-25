@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * add - Add two integers
  * @n1: first number paramenter
