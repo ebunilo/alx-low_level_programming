@@ -2,7 +2,7 @@
 /**
  * _isupper - return 1 if parameter is uppercase
  * @c: the parameter to check
- * 
+ *
  * Return: 0 (Not success)
  */
 
