@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_line - Draw a straight line in the terminal 
+ * print_line - Draw a straight line in the terminal
  * @n: lenght of line (numbe of characters of _ )
  *
  * Return: Nothing to return
