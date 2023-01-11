@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagonal - Draws a diagonal line on the terminal
@@ -7,15 +8,25 @@
  * Return: Nothing to return
  */
 
+int main(void){
+	print_diagonal(0);
+	print_diagonal(2);
+	print_diagonal(10);
+	print_diagonal(-4);
+
+	return (0);
+}
 void print_diagonal(int n)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; i < n; i++)
 	{
-		_putchar(" ");
+		for (j = 0; j < n; j++)
+			printf("%s", " ");
+		
 	}
 	if (i > 0)
-		_putchar('//');
-	_putchar('/n');
+		printf("\\");
+	printf("\n");
 }
