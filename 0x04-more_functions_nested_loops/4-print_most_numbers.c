@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Print numbers 0 to 9, without 2 and 4
- * @void: Does not take any parameter
- *
- * Return: Nothing to return
+ * print_most_numbers - prints numbers 0 to 9,not 2 and 4
+ * Return: failure if 2,4
  */
 
 void print_most_numbers(void)
 {
-	int i = 0;
+	int a;
 
-	for (i = 0; i <= 9; i++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		if ((i != '2') && (i != '4'))
-			_putchar(i);
+		if (a != '2' && a != '4')
+		{
+			_putchar(a);
+		}
 	}
 	_putchar('\n');
 }
