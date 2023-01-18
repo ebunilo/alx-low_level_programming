@@ -8,11 +8,9 @@
 
 void print_dog(struct dog *d)
 {
-	if (d->name == NULL)
+	if (!(d->name))
 		d->name = "(nil)";
-	//if (d->age == (char) NULL)
-	//	d->age = (char) "(nil)";
-	if (d->owner == NULL)
+	if (!(d->owner))
 		d->owner = "(nil)";
 
 	if (d)
