@@ -19,4 +19,4 @@ typedef struct listint_s
 
 size_t print_listint(const listint_t *h);
 
-#endif /* _SINGLY_LINKED_LIST_H */;
+#endif /* _SINGLY_LINKED_LIST_H */
