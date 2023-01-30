@@ -24,7 +24,7 @@ int _strlen(const char *s)
  * @head: The first node of the list
  * @str: String value stored in a node
  *
- * Return - Return the address of the new node or Null if it fails
+ * Return:  Return the address of the new node or Null if it fails
  */
 
 list_t *add_node_end(list_t **head, const char *str)
